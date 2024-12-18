@@ -1,0 +1,91 @@
+.about .container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.about .top {
+  margin: 0 auto;
+  max-width: 660px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+}
+
+.about .top h2 {
+  color: var(--color-black);
+}
+
+.about .top p {
+  line-height: 1.6;
+}
+
+.about .cards {
+  display: flex;
+  gap: 2rem;
+}
+
+.about .small-cards {
+  flex: 2;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.about .big-card {
+  flex: 1;
+  background: var(--color-green);
+  padding: 2rem;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about .card {
+  width: calc(50% - 16px);
+  background: var(--color-gray);
+  padding: 2rem;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.about .card .counter {
+  font-size: 1.75rem;
+  color: var(--color-green);
+}
+
+.about .card .text {
+  font-size: 1.25rem;
+  color: var(--color-black);
+  font-weight: bold;
+}
+
+@media (max-width: 1280px) {
+  .about .cards {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .about .container {
+    gap: 2.5rem;
+  }
+
+  .about .cards {
+    gap: 1.25rem;
+  }
+
+  .about .small-cards {
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .about .card {
+    width: 100%;
+  }
+}

@@ -1,0 +1,11 @@
+# Installed dependencies
+/node_modules
+
+# IDE files
+.idea/*
+
+# OS files
+.DS_Store
+
+# Other
+dist
