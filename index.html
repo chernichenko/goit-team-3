@@ -16,176 +16,574 @@
 		<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png" />
 		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png" />
 		<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png" />
-		<link rel="manifest" href="manifest.json" />
-		<script type="module" crossorigin src="/goit-team-3/assets/main-BW4TauTW.js"></script>
-		<link rel="stylesheet" crossorigin href="/goit-team-3/assets/main-DhG_dxaE.css">
+		<script type="module" crossorigin src="/goit-team-3/assets/main-_8iwlTKn.js"></script>
+		<link rel="stylesheet" crossorigin href="/goit-team-3/assets/main-DUR4XPmj.css">
 	</head>
 	<body>
-		<header class="header">
-			<div class="container">Header 1</div>
-		</header>
+		<header class="header" data-header>
+			<div class="container">
+				<a href="#top" class="logo">
+					english
+					<span class="logo-accent">excellence</span>
+					.
+				</a>
+				<div class="menu" data-menu>
+					<button class="icon-button close-button" aria-label="close-button" data-menu-close>
+						<svg width="2rem" height="2rem">
+							<use href="/goit-team-3/images/icons.svg#icon-close"></use>
+						</svg>
+					</button>
+					<nav class="navigation">
+						<ul class="navigation-list">
+							<li>
+								<a href="#about" class="navigation-link">About us</a>
+							</li>
+							<li>
+								<a href="#our-lessons" class="navigation-link">Our lessons</a>
+							</li>
+							<li>
+								<a href="#teachers" class="navigation-link">Teachers</a>
+							</li>
+							<li>
+								<a href="#students" class="navigation-link">Reviews</a>
+							</li>
+							<li>
+								<a href="#leave-an-app" class="navigation-link">Contact us</a>
+							</li>
+						</ul>
+					</nav>
+					<ul class="social-list">
+						<li>
+							<a class="link contrast" target="_blank" href="https://www.facebook.com/goITclub/" aria-label="soc icon">
+								<svg class="icon" width="1.75rem" height="1.75rem">
+									<use href="/goit-team-3/images/icons.svg#icon-facebook"></use>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a class="link contrast" target="_blank" href="https://www.instagram.com/goitclub/" aria-label="soc icon">
+								<svg class="icon" width="1.75rem" height="1.75rem">
+									<use href="/goit-team-3/images/icons.svg#icon-instagram"></use>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a class="link contrast" target="_blank" href="https://www.youtube.com/c/GoIT" aria-label="soc icon">
+								<svg class="icon" width="1.75rem" height="1.75rem">
+									<use href="/goit-team-3/images/icons.svg#icon-youtube"></use>
+								</svg>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<ul class="social-list">
+					<li>
+						<a class="link" target="_blank" href="https://www.facebook.com/goITclub/">
+							<svg class="icon" width="1.75rem" height="1.75rem">
+								<use href="/goit-team-3/images/icons.svg#icon-facebook"></use>
+							</svg>
+						</a>
+					</li>
+					<li>
+						<a class="link" target="_blank" href="https://www.instagram.com/goitclub/">
+							<svg class="icon" width="1.75rem" height="1.75rem">
+								<use href="/goit-team-3/images/icons.svg#icon-instagram"></use>
+							</svg>
+						</a>
+					</li>
+					<li>
+						<a class="link" target="_blank" href="https://www.youtube.com/c/GoIT">
+							<svg class="icon" width="1.75rem" height="1.75rem">
+								<use href="/goit-team-3/images/icons.svg#icon-youtube"></use>
+							</svg>
+						</a>
+					</li>
+				</ul>
 		
+				<button class="icon-button open-button" aria-label="open-button" data-menu-open>
+					<svg width="2rem" height="2rem">
+						<use href="/goit-team-3/images/icons.svg#icon-hamburger"></use>
+					</svg>
+				</button>
+			</div>
+			<div class="menu-overlay" data-menu-overlay></div>
+		</header>		
 		<section class="hero">
-			<div class="container">Hero</div>
+			<div class="container">
+				<h1 class="title">Discover the joy of learning <span class="accent">English</span> with us!</h1>
+				<a href="#leave-an-app" class="btn btn-primary">Leave an application</a>
+				<a href="#footer" class="icon-button scroll-button" aria-label="anchor icon">
+					<svg width="1.5rem" height="1.5rem">
+						<use href="/goit-team-3/images/icons.svg#icon-chevron-down"></use>
+					</svg>
+				</a>
+			</div>
 		</section>
 
-		<section class="about">
+		<section class="about" id="about">
 			<div class="container">
 				<div class="top">
-					<h2>
+					<h2 class="title">
 						About <span class="title-accent">Us</span>
 					</h2>
 					<p>We are dedicated to providing engaging and effective English language courses in a supportive and stimulating learning environment</p>
 				</div>
-		
 				<div class="cards">
-		
 					<ol class="small-cards">
-						<li class="card">
+						<li class="about-card">
 							<div class="counter">01</div>
 							<div class="text">Expert, innovative teaching staff</div>
 						</li>
-						<li class="card">
+						<li class="about-card">
 							<div class="counter">02</div>
 							<div class="text">Wide range of course levels and options</div>
 						</li>
-						<li class="card">
+						<li class="about-card">
 							<div class="counter">03</div>
 							<div class="text">Multicultural learning environment</div>
 						</li>
-						<li class="card">
+						<li class="about-card">
 							<div class="counter">04</div>
 							<div class="text">Comprehensive language support services</div>
 						</li>
 					</ol>
-		
 					<div class="big-card">
 						<picture>
 							<source
-								srcset="./images/memoji.png 1x, ./images/memoji.2xpng 2x"
+								srcset="./images/memoji.webp 1x, ./images/memoji@2x.webp 2x"
 								type="image/png"
 							/>
-							<img src="./images/memoji.png" alt="memoji" />
+							<img src="./images/memoji.webp" alt="memoji" />
 						</picture>
 					</div>
-		
 				</div>
 			</div>
 		</section>
-		<section class="lessons">
-			<div class="container">Our lessons</div>
+		<section class="lessons" id="our-lessons">
+		  <div class="container">
+		    <div class="top">
+		      <h2 class="title">Our <span class="title-accent">Lessons</span></h2>
+		      <p class="description">
+		        Our lessons are carefully structured and interactive, designed to
+		        promote rapid language acquisition through practical tasks and
+		        real-world scenarios
+		      </p>
+		    </div>
+		    <ul class="lessons-list">
+		      <li class="lessons-item">
+		        <h3 class="name">Practice</h3>
+		        <h4 class="price">40$ / month</h4>
+		        <p class="description">
+		          This plan offers an opportunity for learners to engage in
+		          collaborative language exercises and group activities, boosting their
+		          conversational skills and confidence in using English.
+		        </p>
+		        <button aria-label="price 1" class="btn btn-primary" type="button">
+		          Leave an application
+		        </button>
+		      </li>
+		      <li class="lessons-item recommended">
+		        <h3 class="name">Standard</h3>
+		        <h4 class="price">70$ / month</h4>
+		        <p class="description">
+		          Our standard package provides a balanced learning approach that covers
+		          all key areas of English language - reading, writing, listening, and
+		          speaking. It is a set of basic knowledge and skills.
+		        </p>
+		        <button aria-label="price 2" class="btn btn-primary" type="button">
+		          Leave an application
+		        </button>
+		      </li>
+		      <li class="lessons-item">
+		        <h3 class="name">Individual</h3>
+		        <h4 class="price">99$ / month</h4>
+		        <p class="description">
+		          We offer a tailored learning experience with individualized
+		          instruction that focuses on a learner's specific language goals and
+		          challenges, offering personal feedback.
+		        </p>
+		        <button aria-label="price 3" class="btn btn-primary" type="button">
+		          Leave an application
+		        </button>
+		      </li>
+		    </ul>
+		  </div>
 		</section>
 		
-		<section class="package">
-			<div class="container">Master the Language</div>
-		</section>
+		<section class="master section">
+			<div class="master__container">
+				<h2 class="visually-hidden">master to leave an application</h2>
+				<p class="master__heading">
+					Master the <span class="master__heading-current">Language</span> with
+					Our English Package!
+				</p>
+				<div class="master__box">
+					<div class="master__wrapper">
+						<h3 class="master__tittle">Power of English</h3>
+						<ul class="master__list">
+							<li class="master__item">
+								<div class="master__wrap">
+									<svg class="master__icon">
+										<use href="./images/icons.svg#icon-check"></use>
+									</svg>
+								</div>
+								<p class="master__item-text">
+									Dive into captivating lessons designed to stimulate your
+									curiosity.
+								</p>
+							</li>
+							<li class="master__item">
+								<div class="master__wrap">
+									<svg class="master__icon">
+										<use href="./images/icons.svg#icon-check"></use>
+									</svg>
+								</div>
+								<p class="master__item-text">
+									Learn in a nurturing setting where every student's progress
+									matters.
+								</p>
+							</li>
+							<li class="master__item">
+								<div class="master__wrap">
+									<svg class="master__icon">
+										<use href="./images/icons.svg#icon-check"></use>
+									</svg>
+								</div>
+								<p class="master__item-text">
+									Experience the satisfaction of real progress as your language
+									skills and confidence grow with every session.
+								</p>
+							</li>
+						</ul>
+						<a href="#leave" class="master__button">
+							Leave an application
+						</a>
+					</div>
+					<img class="master__pic" 
+					srcset="./images/books@2x.webp 2x"
+					src="./images/books.webp"
+					alt="pile of books" />
+				</div>
+			</div>
+		</section>		
+		<section class="teachers-section" id="teachers">
+			<h1 class="section-title">Meet our <span class="title-accent">teachers</span></h1>
+			<p class="section-description">
+				Discover our team of dedicated educators, committed to guiding you on your journey to English proficiency with
+				personalized and engaging instruction.
+			</p>
+			<ul class="teachers-list">
+				<li class="teacher">
+					<img src="images/teachers/maria.jpg" srcset="images/teachers/maria.jpg 1x, images/teachers/maria@2x.jpg 2x"
+						alt="Maria" class="teacher-image">
+					<h3 class="teacher-name">Maria</h3>
+					<p class="teacher-description">
+						A seasoned linguist and our primary specialist in beginner-level instruction, Maria brings warmth and
+						patience to every class.
+					</p>
+				</li>
 		
-		<section class="teachers">
-			<div class="container">Meet our teachers</div>
-		</section>
+				<li class="teacher">
+					<img src="images/teachers/artem.jpg" srcset="images/teachers/artem.jpg 1x, images/teachers/artem@2x.jpg 2x"
+						alt="Artem" class="teacher-image">
+					<h3 class="teacher-name">Artem</h3>
+					<p class="teacher-description">
+						With his innovative teaching techniques and a focus on interactive learning, Artem excels in keeping
+						students engaged and motivated.
+					</p>
+				</li>
 		
-		<section class="leave">
-			<div class="container">Leave an application</div>
-		</section>
+				<li class="teacher">
+					<img src="images/teachers/ilona.jpg" srcset="images/teachers/ilona.jpg 1x, images/teachers/ilona@2x.jpg 2x"
+						alt="Ilona" class="teacher-image">
+					<h3 class="teacher-name">Ilona</h3>
+					<p class="teacher-description">
+						A specialist in advanced English, Ilona provides intensive instruction, ensuring students gain
+						confidence in
+						complex language tasks.
+					</p>
+				</li>
 		
-		<section class="students">
-			<div class="container">What our students say</div>
-		</section>
+				<li class="teacher">
+					<img src="images/teachers/volodymyr.jpg"
+						srcset="images/teachers/volodymyr.jpg 1x, images/teachers/volodymyr@2x.jpg 2x" alt="Volodymyr"
+						class="teacher-image">
+					<h3 class="teacher-name">Volodymyr</h3>
+					<p class="teacher-description">
+						Our expert in English for specific purposes, Volodymyr tailors his approach to meet individual career
+						and
+						industry-specific language needs.
+					</p>
+				</li>
+			</ul>
+		</section>		
+		<section class="leave" id="leave-an-app">
+		  <div class="container">
+		    <div class="top">
+		      <h2 class="title">
+		        Leave an <span class="title-accent">application</span>
+		      </h2>
+		      <p class="description">Please use the form below to contact us. Enter your name, email, and message and we'll get back to you shortly.</p>
+		    </div>
 		
-		<footer class="footer">
-			<div class="container">Footer</div>
+		    <div class="main-container">
+		      <div class="card-container">
+		        <div class="image-wrap">
+		          <img src="/goit-team-3/assets/leave_application-DVVJP8jL.webp" alt="The small girl is looking for something interesting in english grammar" class="card-image">
+		        </div>
+		        <div class="card-appl">
+		          <h2 class="card-title">1000</h2>
+		          <p class="card-description">of our online English language lessons! This journey has been full of discovery, growth and unforgettable moments, and we are happy to share this joyful event with you.</p>
+		        </div>
+		      </div>
+		
+		      <div class="form-container">
+		        <div class="appl-form">
+		          <form class="application-form" action="#" method="post">
+		            <div class="form-group">
+		              <label for="name" class="sr-only">Name</label>
+		              <input type="text" id="name" name="name" class="form-input" required placeholder="Name" pattern="[A-Za-zs]+" title="Only letters and spaces are allowed">
+		            </div>
+		            <div class="form-group">
+		              <label for="email" class="sr-only">Email</label>
+		              <input type="email" id="email" name="email" class="form-input" required placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,}$" title="Invalid email format">
+		            </div>
+		            <div class="form-group">
+		              <label for="phone" class="sr-only">Phone</label>
+		              <input type="tel" id="phone" name="phone" class="form-input" required placeholder="Phone" pattern="+?d{10,15}" title="Enter phone number in the format +XXXXXXXXXX (10-15 digits)">
+		            </div>
+		            <div class="form-group">
+		              <label for="comment" class="sr-only">Comment</label>
+		              <textarea id="comment" name="comment" class="form-input comment" required placeholder="Comment" minlength="10" title="Comment must be at least 10 characters long"></textarea>
+		            </div>
+		          </form>
+		        </div>
+		    
+		        <fieldset class="teacher-selection">
+		          <legend class="teacher-selection-title">Choose a teacher</legend>
+		          <div class="radio-group">
+		            <label>
+		              <input type="radio" name="teacher" value="maria" required class="radio-input"> Maria
+		            </label>
+		            <label>
+		              <input type="radio" name="teacher" value="artem" class="radio-input"> Artem
+		            </label>
+		            <label>
+		              <input type="radio" name="teacher" value="ilona" class="radio-input"> Ilona
+		            </label>
+		            <label>
+		              <input type="radio" name="teacher" value="volodymyr" class="radio-input"> Volodymyr
+		            </label>
+		          </div>
+		        </fieldset>
+		    
+		        <div class="bottom-wrap">
+		          <button type="submit" aria-label="submit button" class="btn btn-primary">Send</button>
+		          <p class="privacy-policy">By clicking on the “Send” button, you agree to our <a href="#" class="privacy-link">Privacy Policy</a>, and allow Promodo to use this information for marketing purposes.</p>
+		        </div>
+		      </div>
+		    
+		    </div>
+		  </div>
+		
+		</section>
+		<section class="students" id="students">
+		  <div class="container">
+		    <div class="students-header">
+		      <h1 class="students-header-title">
+		        What our <span class="title-accent">students</span> say
+		      </h1>
+		      <p class="students-header-subtitle">
+		        Hear from our students about their learning journey with us, as they
+		        share their experiences, progress, and the transformative impact
+		      </p>
+		    </div>
+		    <div class="students-cards-box">
+		      <ul class="students-list">
+		        <li class="students-item">
+		          <div class="students-card">
+		            <div class="students-card-profile">
+		              <img
+		                class="students-card-img"
+		                srcset="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIADIAMgMBIgACEQEDEQH/xAAyAAACAwADAQAAAAAAAAAAAAAABwQFBgIDCAEBAAMBAQAAAAAAAAAAAAAAAAADBAEF/9oADAMBAAIQAxAAAABATuOnCF3tnTop8y126zVEtOfTNs2ir24tmgv6nXyWJdd7/A3wdRKGKqmGsWIl292tBexXecYLmRd/OiHENOQA8rsEN88RweoAD//EADAQAAIBAwMBBQYHAQAAAAAAAAECAwAEEQUhMRIGEBMiQUJRYXFyoQcUFVJigqLh/9oACAEBAAE/AFUsQAMk1Da8dW7fYVbWXiDyjyj14FT2KqVCMd+DyM1LbJkqV6WG1SRvGcMO63jAHWRueK0vTjcov82/yK0HRbN4I5niBHsAjYCrvQrK8tWiaNQfZIHBrtNp5s7zcbnIb5rTxLKhB59DRBBINAYAArQ7ZDp7FVJKWxO3JJrQNQPhwQvC8Y46WbqxRmuP1Aotu7xereIVx8hX4gwkXpP0N9sUtG2hYklNzvye7shIhtsMdnCpUFsi3Nv+3JJ3xirZASGcDj0ORXby+SbVbqMcIVQf1paxUL5Qe8bVoN3Hb2dpJIxAW46s0LOLWJCJHniEbsuFbA6gcGtNsorC2EMBcqByzFjWsQ3lvqV1HeB/G8ViS3tZPNdYRSx4ApmLMzHknNI3QwNaNPYz2ccUWCceeNj5lKnn4jetMdTKko4lQMfqGxp9St4kyT8ABya1u6s5VNzqSxRRJnpD483wHvNX1xDPMxgiaOLJwpOe9WZGVlYhgcgjYgiuykkk/Z3TnmdpHMs4LOck4NIq/nbYdIx/2ri7urpw9zcSzOF6Q0jlyBzjJ7//xAAhEQEAAgEDBAMAAAAAAAAAAAABAAIRAxAyBBITISJxgf/aAAgBAgEBPwBSle5nntn0QS9Sxt1fA+4e2aHD9mCavyoEJS61MmHc5sNv/8QAIxEAAgECBAcAAAAAAAAAAAAAAQIAEBEDISIyBBITQUJxgf/aAAgBAwEBPwBQXblE6CAWJzjAoxU04befUbITH3/JczD0veMzlQvaOmo2NxXwFf/Z 1x, data:image/jpeg;base64,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 2x"
+		                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIADIAMgMBIgACEQEDEQH/xAAyAAACAwADAQAAAAAAAAAAAAAABwQFBgIDCAEBAAMBAQAAAAAAAAAAAAAAAAADBAEF/9oADAMBAAIQAxAAAABATuOnCF3tnTop8y126zVEtOfTNs2ir24tmgv6nXyWJdd7/A3wdRKGKqmGsWIl292tBexXecYLmRd/OiHENOQA8rsEN88RweoAD//EADAQAAIBAwMBBQYHAQAAAAAAAAECAwAEEQUhMRIGEBMiQUJRYXFyoQcUFVJigqLh/9oACAEBAAE/AFUsQAMk1Da8dW7fYVbWXiDyjyj14FT2KqVCMd+DyM1LbJkqV6WG1SRvGcMO63jAHWRueK0vTjcov82/yK0HRbN4I5niBHsAjYCrvQrK8tWiaNQfZIHBrtNp5s7zcbnIb5rTxLKhB59DRBBINAYAArQ7ZDp7FVJKWxO3JJrQNQPhwQvC8Y46WbqxRmuP1Aotu7xereIVx8hX4gwkXpP0N9sUtG2hYklNzvye7shIhtsMdnCpUFsi3Nv+3JJ3xirZASGcDj0ORXby+SbVbqMcIVQf1paxUL5Qe8bVoN3Hb2dpJIxAW46s0LOLWJCJHniEbsuFbA6gcGtNsorC2EMBcqByzFjWsQ3lvqV1HeB/G8ViS3tZPNdYRSx4ApmLMzHknNI3QwNaNPYz2ccUWCceeNj5lKnn4jetMdTKko4lQMfqGxp9St4kyT8ABya1u6s5VNzqSxRRJnpD483wHvNX1xDPMxgiaOLJwpOe9WZGVlYhgcgjYgiuykkk/Z3TnmdpHMs4LOck4NIq/nbYdIx/2ri7urpw9zcSzOF6Q0jlyBzjJ7//xAAhEQEAAgEDBAMAAAAAAAAAAAABAAIRAxAyBBITISJxgf/aAAgBAgEBPwBSle5nntn0QS9Sxt1fA+4e2aHD9mCavyoEJS61MmHc5sNv/8QAIxEAAgECBAcAAAAAAAAAAAAAAQIAEBEDISIyBBITQUJxgf/aAAgBAwEBPwBQXblE6CAWJzjAoxU04befUbITH3/JczD0veMzlQvaOmo2NxXwFf/Z"
+		                alt="Anna"
+		                width="50"
+		                height="50"
+		              />
+		              <div>
+		                <h2 class="students-name">Anna</h2>
+		                <p class="students-role">Student</p>
+		              </div>
+		            </div>
+		            <p class="students-card-text">
+		              My experience at the language school has been nothing short of
+		              amazing. The teachers are dedicated and the learning environment
+		              is stimulating. I feel more confident in my English skills.
+		            </p>
+		          </div>
+		        </li>
+		        <li class="students-item hidden">
+		          <div class="students-card">
+		            <div class="students-card-profile">
+		              <img
+		                class="students-card-img"
+		                srcset="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIADIAMgMBIgACEQEDEQH/xAAuAAEAAgIDAQAAAAAAAAAAAAAABAUGBwECAwgBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAPn+8o88O0DZ9aafh+3iAMqxW9My6d4BiFdOggHva00s3NWU04wrmLAIwALfNA1rwAH/xAAqEAACAQMCBAYDAQEAAAAAAAABAgMABBEFMRITIUEGECAiUXEygcFykf/aAAgBAQABPwCrCyh9jzrkkAgHao0iiARUUdNlH8xU9rc8xHKSCItgg9N6vxEt3MIgAmegHo8MWUd8G4043QAAH4q0sFtHPDDCh+WIrxOYZdNmWKaJ3UcR4CDU8TxuA3dQw+j6NISWSydYrgxyZGx3FWul39zpt4ZrmQvGUAO/Q1bWUFhBMZCWZ42Gc5BBFarNHNeMYjlAiKP0oB9Hh9+G/HHDLJCFLSCL8gB3rVLa4RY7ywu3msiASY2wV/2Kknn1GG6X2xLGvUn5bYDh7mr2wu7OYxzxEHcHcEHuPOGBpc4IAG5NWLPZXMUsDtzOIDP32xWmwQxDnyZikmBJjXDQyA9yK1e30zTtMuXgyhkmV2j3H0tPdT3Uzyvu3/ABsKkiteWzSqDgZJHQ+SOUYEUs+cHvWna086Bnf3HetUUX9jMkZBcLkfrrQkCLlmAqe4MuAAQo9Gls3O3P4/2iSsUhU49jbfVEljkkk+f/xAAUEQEAAAAAAAAAAAAAAAAAAABA/9oACAECAQE/AAf/xAAUEQEAAAAAAAAAAAAAAAAAAABA/9oACAEDAQE/AAf/2Q== 1x, data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIAGQAZAMBIgACEQEDEQH/xAAuAAEAAgMBAQEAAAAAAAAAAAAABQYDBAcBAggBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAPz+D2Y+pg+ZXHiNCOsWgQkVNQoAA98EzcaV2QhbP9fRs8y6HRjmeOUiwAACUsNcvJE7W7cTlF0+9MrVTmYYAAA96Dz24FgiL3TCaq+jaTmnxb6qYnoPAezBF26I8Og2SMmyp47hz4jIvR3T3Fv6ZBPA2dYSiPynTJPmtoLXRLJjKDmwYjZhnyAAAfdkCzwAVTGAAH//xAA1EAACAQMDAQUHAwIHAAAAAAABAgMABBEFEiExEyAiQVEGFDJSYaHBEHGBFSMwM2JjgpHR/9oACAEBAAE/AP0AJIAGSattHkkwZXCjzUHxVDp1sgAFtEcYy77vyRTLuG8oSc4Lh8/+1dNNCzPGcjGC2KiU3bFG2cjqQCR9RWq2cdrOFiB2bRyfM9+yt9kHvG7aDlPzVvIFwHclvlAz+KPZKmWjIPoxAOKjdiD7vGwY/KMfmv6bfSkFkIJHUAULF7a5O4eFeea1ecSuMKnXJK+f79+0Z54Yrb/XxVposW0FzzUejWwdS4yKtY7GBAFgUUFR/FsAAFe1Q7ORSBwacknnv6c+yaA/7oqxtFnjDE7aewRBkzVHDYIN804AHmTiptX0ZE2JLgE43Fa9p0jntlmhcOqt1FXFoFso5/Fu34II4w3Qj/rv6b45Yo/Pt4yKvdW1GGV4+2bwkgY9BVpr167CJ5XJJwM1rXvtuRHKjMWXIq0s7uaTh1UGns+y0e4gkIJKEg1rgMGmaZEXDdopkHqF8s9/THCTSP8AIgYf8WBpxBc4wPFUOnItzBhMuzitdsmKxSdn2gEeSF6gCktoVUSxdPQCr68YwyAnAxitV1AXaWcYjx2EZQn176kg5Feztrd6kjGAAtGBuy2K1BruyEi4Mdx5BvSotZ1aaZQ0xRVOHx1NNeQA5RdgYdDWrXCFCobJyc05yx/wNFttatLb+oWgDJ5oD4iBUGr6Vr+nLDdQ5kHBXo8Z9RWraHeaXKG943QSHwSqv2b61MZkkULMXZiBj6mrq0sbOztrY2qSXEmJHnb4gR6VrPszJBD79bOpgOMqT4kLU8EqfEjDvJDK/wAKEitB1SXTpBBIxkikwNvyk+lSaULuf3zTJAlx5r0D/Q1Y9s8DW+q2uInGGD8g1J7IyQazBLbZmst+7Pmh8g1a+rJewRE8BMgemTj8VrOptOYbONv7cXLfV6EuRySFArsLebrDgmpNLU/5bkfQ0QASAc0MZGajgt48EDefU8imkaoFd7qAKAxMi4B4FaPp8UUT3VvK0Tgcwk8bh6UNUe4jxKvI6giorwQIXQ8Hgg17YakGvYXh+Nocfc1GjNwP5NJGM84yPLyFBgOAf3q+uuziMS9XH2/WGcqNp6UJQevWgzI6up5UgiodWW6WB84JX7+YNJdNgBuT5H1ppAybc9RXtJCqNbOM4O8UhwAOlB9q8ZzUk3Yplv4x507s7FmPJPcWQjg8ig3ytWnXewmJvM5U1bXRIyD0pb1TjcMbuhFanaLeWkhfwdmNyk+WeOf3pcDNPdKvTxH7Cndnbcxye+HYVY3EjIcnkNtz6/vUcKBFcZySy/xtq/1u9tw8CbeyFw2UJYqdgGCRnBPNPLJISWbr/Hd//8QAFBEBAAAAAAAAAAAAAAAAAAAAUP/aAAgBAgEBPwBH/8QAFBEBAAAAAAAAAAAAAAAAAAAAUP/aAAgBAwEBPwBH/9k= 2x"
+		                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIADIAMgMBIgACEQEDEQH/xAAuAAEAAgIDAQAAAAAAAAAAAAAABAUGBwECAwgBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAPn+8o88O0DZ9aafh+3iAMqxW9My6d4BiFdOggHva00s3NWU04wrmLAIwALfNA1rwAH/xAAqEAACAQMCBAYDAQEAAAAAAAABAgMABBEFMRITIUEGECAiUXEygcFykf/aAAgBAQABPwCrCyh9jzrkkAgHao0iiARUUdNlH8xU9rc8xHKSCItgg9N6vxEt3MIgAmegHo8MWUd8G4043QAAH4q0sFtHPDDCh+WIrxOYZdNmWKaJ3UcR4CDU8TxuA3dQw+j6NISWSydYrgxyZGx3FWul39zpt4ZrmQvGUAO/Q1bWUFhBMZCWZ42Gc5BBFarNHNeMYjlAiKP0oB9Hh9+G/HHDLJCFLSCL8gB3rVLa4RY7ywu3msiASY2wV/2Kknn1GG6X2xLGvUn5bYDh7mr2wu7OYxzxEHcHcEHuPOGBpc4IAG5NWLPZXMUsDtzOIDP32xWmwQxDnyZikmBJjXDQyA9yK1e30zTtMuXgyhkmV2j3H0tPdT3Uzyvu3/ABsKkiteWzSqDgZJHQ+SOUYEUs+cHvWna086Bnf3HetUUX9jMkZBcLkfrrQkCLlmAqe4MuAAQo9Gls3O3P4/2iSsUhU49jbfVEljkkk+f/xAAUEQEAAAAAAAAAAAAAAAAAAABA/9oACAECAQE/AAf/xAAUEQEAAAAAAAAAAAAAAAAAAABA/9oACAEDAQE/AAf/2Q=="
+		                alt="Mykhailo"
+		                width="50"
+		                height="50"
+		              />
+		              <div>
+		                <h2 class="students-name">Mykhailo</h2>
+		                <p class="students-role">Student</p>
+		              </div>
+		            </div>
+		            <p class="students-card-text">
+		              The school offers a great balance of language theory and practical
+		              exercises. The personalized feedback from the teachers has helped
+		              me improve my weak areas.
+		            </p>
+		          </div>
+		        </li>
+		        <li class="students-item hidden">
+		          <div class="students-card">
+		            <div class="students-card-profile">
+		              <img
+		                class="students-card-img"
+		                srcset="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIADIAMgMBIgACEQEDEQH/xAAzAAACAgMBAQAAAAAAAAAAAAAABwUGAgMEAQgBAAMBAQEAAAAAAAAAAAAAAAQFBgEAA//aAAwDAQACEAMQAAAAQ/0JW22Yo7cEFp9vC+IlsQRIS0PRJV/SsI3k05lKFt0zCq1z8k4iihIU6AIxjVxWvgd3TK44KlzCsZ8UBk/xGAvdGYbzd6Ad8msASYAZv//EADMQAAICAQMCAgcGBwAAAAAAAAECAwQRAAUhBhIiMRATQUJRYXEHFDKBkdIkNENSYnPh/9oACAEBAAE/AKtWxcsRV60TSSyHCqNdH/ZbtkCQz74hnu+Zg/oRfvOpYdr2uoYVEFaAMCkahY1HmTgDUFqlZr4hsROU7y2GBwPPOt56R6S3Co4iEVa2pPa9fAGPmg4I1uO13Ntn9VZQDOe1gcqwBxkH0fZ5tO0wUXv3I3N2YkQn2RRfubUvU9ejSlsMoLqvH+R1vG+3r1xiz98svIz5KPkNVo2RwWnkRz7yHGDqO9ak9bHZlLyREDv/ALlI4Ot4rR3oGjYDvGTG3wOmUqSrAgg4IOtr6YtVqsZ8IRY1IQNllX2Z11fA9WOnFIfBIDIcfBdbf6yzLZtYHf7uq0E4mYu36a2+OzGJvvHLELznPHOpW89SbfReR3aHLMxJPcfM6jQpYuHHhHf/AM113ZE12ONT+CsI/wBSc62icI0kDEA8Y0I4JbEccjlVbjI1IK8UaqnD4APwONTNydH6a6M66mfaIak6x/w0KQcADwRjC6ngubvfkeNctISfko1L061Sd0te8MI66ttfpWBA7d0bfhYjz1QmdjIzuWPHnq1YWJHdjwBnUjmR3c+bMSfz1RuSUrKTJzjIK5wGB8xrpbd9svbesdHi36vM0bHxqQQD9RqWeGzYlrSqDGWK/QgcEatUobcDxS4BUnB9qsNLLHUEkcjKpU8nV6+1sqAvai5/P5n0xySRSJJG7I6MGVlOCpHIII10zLLPtdWWaRpHIbLOSxOJDqT+ds/7BqSSSVi8js7HzLHJ9P8A/8QAJxEAAgEDAQYHAAAAAAAAAAAAAQIDAAQRMRASEyEyQSIzUWFxgZL/2gAIAQIBAT8AW0k4YbcOTpRMaEIXJbP0KlsY5ITInXrsa5cq2mAK5vu+paoRw7ZFoiPPlp+RUTxSxqmArd/fFSWilfByPaluBHbKm9ltg1FL0x03U3zs/8QAJxEAAQMCBAYDAQAAAAAAAAAAAQIDEQAEBRMhMRASMkFRYRQzQpL/2gAIAQMBAT8AcxRj5K2g6nlTofMjcUm3uX8xxLKQiCNdzrNWWJXTNyGnoyhp5I98LfD2s9BlRWVGZ7lNMtNhhJnpBq5E3r+neg68ABnOf0aYteS5W4pwqB6QfzO4pxXIjTT2KVZrevFqKYRO9AQI4O/SKGw4f//Z 1x, data:image/jpeg;base64,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 2x"
+		                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIADIAMgMBIgACEQEDEQH/xAAzAAACAgMBAQAAAAAAAAAAAAAABwUGAgMEAQgBAAMBAQEAAAAAAAAAAAAAAAQFBgEAA//aAAwDAQACEAMQAAAAQ/0JW22Yo7cEFp9vC+IlsQRIS0PRJV/SsI3k05lKFt0zCq1z8k4iihIU6AIxjVxWvgd3TK44KlzCsZ8UBk/xGAvdGYbzd6Ad8msASYAZv//EADMQAAICAQMCAgcGBwAAAAAAAAECAwQRAAUhBhIiMRATQUJRYXEHFDKBkdIkNENSYnPh/9oACAEBAAE/AKtWxcsRV60TSSyHCqNdH/ZbtkCQz74hnu+Zg/oRfvOpYdr2uoYVEFaAMCkahY1HmTgDUFqlZr4hsROU7y2GBwPPOt56R6S3Co4iEVa2pPa9fAGPmg4I1uO13Ntn9VZQDOe1gcqwBxkH0fZ5tO0wUXv3I3N2YkQn2RRfubUvU9ejSlsMoLqvH+R1vG+3r1xiz98svIz5KPkNVo2RwWnkRz7yHGDqO9ak9bHZlLyREDv/ALlI4Ot4rR3oGjYDvGTG3wOmUqSrAgg4IOtr6YtVqsZ8IRY1IQNllX2Z11fA9WOnFIfBIDIcfBdbf6yzLZtYHf7uq0E4mYu36a2+OzGJvvHLELznPHOpW89SbfReR3aHLMxJPcfM6jQpYuHHhHf/AM113ZE12ONT+CsI/wBSc62icI0kDEA8Y0I4JbEccjlVbjI1IK8UaqnD4APwONTNydH6a6M66mfaIak6x/w0KQcADwRjC6ngubvfkeNctISfko1L061Sd0te8MI66ttfpWBA7d0bfhYjz1QmdjIzuWPHnq1YWJHdjwBnUjmR3c+bMSfz1RuSUrKTJzjIK5wGB8xrpbd9svbesdHi36vM0bHxqQQD9RqWeGzYlrSqDGWK/QgcEatUobcDxS4BUnB9qsNLLHUEkcjKpU8nV6+1sqAvai5/P5n0xySRSJJG7I6MGVlOCpHIII10zLLPtdWWaRpHIbLOSxOJDqT+ds/7BqSSSVi8js7HzLHJ9P8A/8QAJxEAAgEDAQYHAAAAAAAAAAAAAQIDAAQRMRASEyEyQSIzUWFxgZL/2gAIAQIBAT8AW0k4YbcOTpRMaEIXJbP0KlsY5ITInXrsa5cq2mAK5vu+paoRw7ZFoiPPlp+RUTxSxqmArd/fFSWilfByPaluBHbKm9ltg1FL0x03U3zs/8QAJxEAAQMCBAYDAQAAAAAAAAAAAQIDEQAEBRMhMRASMkFRYRQzQpL/2gAIAQMBAT8AcxRj5K2g6nlTofMjcUm3uX8xxLKQiCNdzrNWWJXTNyGnoyhp5I98LfD2s9BlRWVGZ7lNMtNhhJnpBq5E3r+neg68ABnOf0aYteS5W4pwqB6QfzO4pxXIjTT2KVZrevFqKYRO9AQI4O/SKGw4f//Z"
+		                alt="Victoria"
+		                width="50"
+		                height="50"
+		              />
+		              <div>
+		                <h2 class="students-name">Victoria</h2>
+		                <p class="students-role">Student</p>
+		              </div>
+		            </div>
+		            <p class="students-card-text">
+		              I love the dynamic and interactive teaching methods used here.
+		              It's a great place to learn English in a fun and effective way. I
+		              have definitely seen a big improvement in my language skills.
+		            </p>
+		          </div>
+		        </li>
+		      </ul>
+		    </div>
+		  </div>
+		</section>
+
+		<footer class="footer" id="footer">
+		    <div class="container">
+		        <div class="content-container">
+		            <div class="contact-info">
+		                <div class="logo-container">
+		                    <a href="#top" class="logo">
+		                        english
+		                        <span class="logo-accent">excellence</span>
+		                        .
+		                    </a>
+		                </div>
+		                <div class="phone">
+		                    <p class="contact-info-label">Phone number:</p>
+		                    <p class="phone-number">+380 (68) 443-94-26</p>
+		                </div>
+		                <div class="address">
+		                    <p class="contact-info-label">Address:</p>
+		                    <a class="address-info" href="https://www.google.com/maps?sca_esv=754168574209eb79&output=search&q=32a+M.+Bazhana+ave&source=lnms&fbs=AEQNm0AnYLk5XLnZDC_bq-_hs1898jFyMx7DxtkpKWCR_PGcSA5SuaWOPB3r3GqTm3VSlaz1Ve2Hp1FgU_9P2cdMzkWJb3VFaYivl2hunq2PuWjMTLkRPQTYOhNdyoTxqKXbM1X9iYGP2lOs-c3ShpqpOsdPhf0J8bmncQmjxEtmcvACcCHrjgiv2JDiVk6bd7ThoFFPfYMZ1srkmxwvBqhh9SReHWtCSg88sOgAJmY2GPyqIBc962E8Uke8R-jU3BsfVYZMswrK&entry=mc&ved=1t:200715&ictx=111" target="_blank">32a M. Bazhana ave</a>
+		                </div>
+		            </div>
+		            <div class="navigation">
+		                <ul class="navigation-list">
+		                    <li>
+		                        <a href="#about" class="navigation-link">About us</a>
+		                    </li>
+		                    <li>
+		                        <a href="#our-lessons" class="navigation-link">Our lessons</a>
+		                    </li>
+		                    <li>
+		                        <a href="#teachers" class="navigation-link">Teachers</a>
+		                    </li>
+		                    <li>
+		                        <a href="#students" class="navigation-link">Reviews</a>
+		                    </li>
+		                    <li>
+		                        <a href="#leave-an-app" class="navigation-link">Contact us</a>
+		                    </li>
+		                </ul>
+		            </div>
+		            <div class="socials">
+		                <ul class="social-list">
+		                    <li>
+		                        <a
+		                            class="link"
+		                            target="_blank"
+		                            href="https://www.facebook.com/goITclub/"
+		                            aria-label="soc icon"
+		                        >
+		                            <svg
+		                                class="icon"
+		                                width="2.625rem"
+		                                height="2.625rem"
+		                            >
+		                                <use
+		                                    href="./images/icons.svg#icon-facebook"
+		                                ></use>
+		                            </svg>
+		                        </a>
+		                    </li>
+		                    <li>
+		                        <a
+		                            class="link"
+		                            target="_blank"
+		                            href="https://www.instagram.com/goitclub/"
+		                            aria-label="soc icon"
+		                        >
+		                            <svg
+		                                class="icon"
+		                                width="2.625rem"
+		                                height="2.625rem"
+		                            >
+		                                <use
+		                                    href="./images/icons.svg#icon-instagram"
+		                                ></use>
+		                            </svg>
+		                        </a>
+		                    </li>
+		                    <li>
+		                        <a
+		                            class="link"
+		                            target="_blank"
+		                            href="https://www.youtube.com/c/GoIT"
+		                            aria-label="soc icon"
+		                        >
+		                            <svg
+		                                class="icon"
+		                                width="2.625rem"
+		                                height="2.625rem"
+		                            >
+		                                <use
+		                                    href="./images/icons.svg#icon-youtube"
+		                                ></use>
+		                            </svg>
+		                        </a>
+		                    </li>
+		                </ul>
+		            </div>
+		        </div>
+		        <hr class="footer-line" />
+		        <div class="privacy-container">
+		            <div class="rights">
+		                <p>©2023 English Excellence. All rights reserved.</p>
+		            </div>
+		            <div class="terms-and-policy">
+		                <p class="policy">Privacy Policy</p>
+		                <p class="terms">Terms of Service</p>
+		            </div>
+		        </div>
+		    </div>
 		</footer>
-
-		<div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid black;" />
-		
-		<div class="container">
-		  <a href="#top" class="logo">
-		    english
-		    <span class="logo-accent">excellence</span>
-		    .
-		  </a>
-		
-		  <h2 style="color: var(--color-black)">
-		    Meet our
-		    <span class="title-accent">teachers</span>
-		  </h2>
-		  
-		  <div style="max-width: 20rem; padding: 2rem; margin: 2rem 0; border: 2px dashed #9747ff; border-radius: 0.5rem">
-		    <button class="btn btn-primary">Button Primary</button>
-		  </div>
-		  <div
-		    style="
-		      max-width: 20rem;
-		      background: var(--color-green);
-		      padding: 2rem;
-		      margin: 2rem 0;
-		      border: 2px dashed #9747ff;
-		      border-radius: 0.5rem;
-		    ">
-		    <button class="btn btn-secondary">Button Secondary</button>
-		  </div>
-		
-		  <div style="width: fit-content; padding: 2rem; margin: 2rem 0; border: 2px dashed #9747ff; border-radius: 0.5rem">
-		    <ul class="social-list">
-		      <li class="social-list__item">
-		        <button class="social-list__item__button">
-		          <svg class="icon" width="1.75rem" height="1.75rem">
-		            <use href="./images/icons.svg#icon-facebook"></use>
-		          </svg>
-		        </button>
-		      </li>
-		      <li class="social-list__item">
-		        <button class="social-list__item__button">
-		          <svg class="icon" width="1.75rem" height="1.75rem">
-		            <use href="./images/icons.svg#icon-instagram"></use>
-		          </svg>
-		        </button>
-		      </li>
-		      <li class="social-list__item">
-		        <button class="social-list__item__button">
-		          <svg class="icon" width="1.75rem" height="1.75rem">
-		            <use href="./images/icons.svg#icon-youtube"></use>
-		          </svg>
-		        </button>
-		      </li>
-		    </ul>
-		  </div>
-		  <div
-		    style="
-		      width: fit-content;
-		      background: var(--color-black);
-		      padding: 2rem;
-		      margin: 2rem 0;
-		      border: 2px dashed #9747ff;
-		      border-radius: 0.5rem;
-		    ">
-		    <ul class="social-list">
-		      <li class="social-list__item">
-		        <button class="social-list__item__button social-list__item__button__contrast">
-		          <svg class="icon" width="1.75rem" height="1.75rem">
-		            <use href="./images/icons.svg#icon-facebook"></use>
-		          </svg>
-		        </button>
-		      </li>
-		      <li class="social-list__item">
-		        <button class="social-list__item__button social-list__item__button__contrast">
-		          <svg class="icon" width="1.75rem" height="1.75rem">
-		            <use href="./images/icons.svg#icon-instagram"></use>
-		          </svg>
-		        </button>
-		      </li>
-		      <li class="social-list__item">
-		        <button class="social-list__item__button social-list__item__button__contrast">
-		          <svg class="icon" width="1.75rem" height="1.75rem">
-		            <use href="./images/icons.svg#icon-youtube"></use>
-		          </svg>
-		        </button>
-		      </li>
-		    </ul>
-		  </div>
-		</div>
-		
-		
-
+
 	</body>
 </html>
